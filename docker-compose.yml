@@ -1,0 +1,7 @@
+version: '3'
+services:
+  webapp:
+    image: app:v1
+    container_name: task
+    ports:
+      - "80:80"
